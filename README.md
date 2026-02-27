@@ -1,108 +1,56 @@
-👋 Hi, I'm Allan Deus
+# 👋 Hi, I'm Allan Deus  
 
-🚀 Backend Developer | 🛡️ Cybersecurity Enthusiast | 🌍 HealthTech System Builder | 🧠 Problem Solver
+🚀 Backend Developer | 🛡️ Cybersecurity Enthusiast | 🌍 HealthTech System Builder  
 
-💡 About Me
+---
 
-I am a passionate backend developer focused on building powerful, secure, and scalable systems that solve real-world problems.
+## 💼 About Me
 
-Currently, I am developing an advanced Epidemic Alert & Health Reporting System designed to improve disease surveillance, public awareness, and health response coordination on an international level.
+I am a backend-focused developer building secure, scalable, and impactful systems.
 
-I enjoy turning complex ideas into structured, secure, and efficient systems using modern technologies.
+Currently working on an advanced Epidemic Alert & Health Reporting System inspired by global surveillance systems.
 
-🏗️ What I'm Building
-🏥 Epidemic Alert & Health Reporting System
+---
 
-An advanced web-based surveillance system inspired by systems like:
+# 🛠️ Tech Stack
 
-SORMAS
+## 🧠 Backend
 
-World Health Organization surveillance principles
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
-Features Include:
+---
 
-🔐 Role-Based Access Control (Admin, Reporter, Health Officer)
+## 🎨 Frontend
 
-📊 Advanced Dashboards & Analytics
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-📝 Case Reporting System
+---
 
-📂 Secure File/Image Uploads
+## 📱 Mobile
 
-📈 Data Filtering, Export (PDF/CSV)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-🛡️ Secure Authentication with MFA
+---
 
-📬 Email & Password Reset System
+# 🚀 Current Focus
 
-⚡ Real-time dynamic UI interactions
+- Building scalable Django systems
+- Advanced authentication & security
+- Role-Based Access Control (RBAC)
+- PostgreSQL optimization
+- API development
+- System architecture design
 
-🛠️ Tech Stack
-👨‍💻 Backend
+---
 
-Python
+# 🎯 Vision
 
-Django
+To become a globally recognized backend engineer building secure, enterprise-level systems.
 
-Django REST Framework
-
-PostgreSQL
-
-SQLite
-
-🎨 Frontend
-
-HTML5
-
-CSS3
-
-Bootstrap
-
-JavaScript
-
-🧠 Concepts I Work With
-
-Object-Oriented Programming (OOP)
-
-Secure Authentication Systems
-
-Database Design & Optimization
-
-API Development
-
-Role-Based Access Control (RBAC)
-
-System Architecture Design
-
-Cybersecurity Fundamentals
-
-🎯 Current Goals
-
-🔥 Build one of the most advanced health surveillance systems
-
-🛡️ Strengthen my cybersecurity expertise
-
-🏗️ Master backend architecture at enterprise level
-
-🌍 Contribute to impactful global health solutions
-
-📚 Continuously improve in Python & system design
-
-
-🧩 My Philosophy
-
-"A system is not powerful because it works.
-It is powerful because it is secure, scalable, and built with purpose."
-
-📫 Let's Connect
-
-🌍 Location: Tanzania
-
-💻 Open to collaboration on impactful backend & health-tech projects
-
-🚀 Always building something powerful
-
-⚡ Fun Fact
-
-I don’t just write code —
-I design systems that think, protect, and scale.
+---
