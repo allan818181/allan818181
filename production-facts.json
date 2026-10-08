@@ -3,7 +3,7 @@
   "tagline": "Production car sales platform · Next.js on AWS",
   "healthUrl": "",
   "metrics": [
-    { "value": "15,800+", "label": "vehicles listed" },
+    { "value": "15,000+", "label": "vehicles listed" },
     { "value": "313k", "label": "photos on S3 + CDN" },
     { "value": "7", "label": "site languages" },
     { "value": "3", "label": "portals" },

@@ -26,7 +26,22 @@ I'm a full-stack engineer who also owns what happens after the code is written: 
 
 ## ⭐ Flagship: Tanzanite Auto Traders (production)
 
-A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,800+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
+A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
+
+<table>
+  <tr>
+    <td width="74%"><img src="assets/showcase/tz-home.webp" alt="Tanzanite Auto Traders homepage: search, specialty commercial vehicles and stock highlights"/></td>
+    <td width="26%" align="center"><img src="assets/showcase/tz-mobile.webp" alt="Tanzanite homepage on a phone"/></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td width="50%"><img src="assets/showcase/tz-stock.webp" alt="Stock list with filters, brand counts and 15,047 cars in stock"/><p align="center"><sub><b>Stock list</b> · filters, brand counts, infinite scroll</sub></p></td>
+    <td width="50%"><img src="assets/showcase/tz-vehicle.webp" alt="Vehicle page with photo gallery, price breakdown and enquiry actions"/><p align="center"><sub><b>Vehicle page</b> · 19-photo gallery, live price breakdown, WhatsApp enquiry</sub></p></td>
+  </tr>
+</table>
+
+### How it is built
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg"/>
@@ -51,6 +66,8 @@ A multilingual car sales platform with a public storefront and three portals (cu
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 </p>
 
+<p align="center"><a href="https://allan818181.github.io/tanzania-stays/"><img src="assets/showcase/stays.webp" width="80%" alt="Tanzania Stays live site: villa rentals and sales in Tanzania"/></a><br/><sub><b>Tanzania Stays</b> · live on GitHub Pages, deployed by a GitHub Actions workflow</sub></p>
+
 ## 🧰 Tech stack
 
 | | |
@@ -71,6 +88,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Tanzania Stays**](https://github.com/allan818181/tanzania-stays) · [live](https://allan818181.github.io/tanzania-stays/) | Villa rentals and sales site with availability calendars and a blog | React · TypeScript · Vite |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
 | [**Dar es Salaam Data Portal**](https://github.com/allan818181/dar-data-portal) | Open-data portal: datasets, a pandas/Matplotlib transform engine, REST API, PDF/Excel reports | Django · DRF · pandas |
