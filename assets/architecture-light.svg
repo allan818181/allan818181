@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="Architecture of the Tanzanite Auto Traders platform on AWS">
+<style>
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+  .b { font-size: 14px; font-weight: 700; }
+  .s { font-size: 11.5px; fill: #59636e; }
+  .g { font-size: 12px; font-weight: 700; fill: #0969da; }
+  .w { fill: none; stroke: #d0d7de; stroke-width: 2; }
+  .f { fill: none; stroke: #1a7f37; stroke-width: 2; stroke-dasharray: 5 12; animation: f 1.4s linear infinite; }
+  @keyframes f { to { stroke-dashoffset: -34; } }
+</style>
+<rect width="1000" height="430" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="250" y="40" width="480" height="232" rx="12" fill="none" stroke="#0969da" stroke-dasharray="6 5"/>
+<text x="266" y="62" class="g">AWS EC2 · Docker Compose · eu-west-2</text>
+<path d="M190 150 H275" class="w"/><path d="M190 150 H275" class="f" style="animation-delay:0s"/>
+<path d="M415 150 H480" class="w"/><path d="M415 150 H480" class="f" style="animation-delay:-0.3s"/>
+<path d="M550 179 V195" class="w"/><path d="M550 179 V195" class="f" style="animation-delay:-0.6s"/>
+<path d="M620 140 H700 V89 H790" class="w"/><path d="M620 140 H700 V89 H790" class="f" style="animation-delay:-0.2s"/>
+<path d="M700 224 H750 V199 H790" class="w"/><path d="M700 224 H750 V199 H790" class="f" style="animation-delay:-0.5s"/>
+<path d="M875 228 V290" class="w"/><path d="M875 228 V290" class="f" style="animation-delay:-0.9s"/>
+<path d="M790 319 H110 V179" class="w"/><path d="M790 319 H110 V179" class="f" style="animation-delay:-0.4s"/>
+<path d="M300 359 H380" class="w"/><path d="M300 359 H380" class="f" style="animation-delay:-0.7s"/>
+<path d="M450 330 V272" class="w"/><path d="M450 330 V272" class="f" style="animation-delay:-0.1s"/>
+<g transform="translate(30,121)">
+    <rect width="160" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="80" y="25" text-anchor="middle" class="b">Visitors</text>
+    <text x="80" y="44" text-anchor="middle" class="s">7 languages · 4 currencies</text></g>
+<g transform="translate(275,121)">
+    <rect width="140" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="70" y="25" text-anchor="middle" class="b">Caddy</text>
+    <text x="70" y="44" text-anchor="middle" class="s">HTTPS · auto TLS</text></g>
+<g transform="translate(480,121)">
+    <rect width="140" height="58" rx="10" fill="#f6f8fa" stroke="#0969da"/>
+    <text x="70" y="25" text-anchor="middle" class="b">Next.js 16</text>
+    <text x="70" y="44" text-anchor="middle" class="s">app + 3 portals</text></g>
+<g transform="translate(430,195)">
+    <rect width="270" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="135" y="25" text-anchor="middle" class="b">Redis + BullMQ worker</text>
+    <text x="135" y="44" text-anchor="middle" class="s">cache · rate limits · photo pipeline</text></g>
+<g transform="translate(790,60)">
+    <rect width="170" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="85" y="25" text-anchor="middle" class="b">Neon PostgreSQL</text>
+    <text x="85" y="44" text-anchor="middle" class="s">Prisma · migrations</text></g>
+<g transform="translate(790,170)">
+    <rect width="170" height="58" rx="10" fill="#f6f8fa" stroke="#b35c00"/>
+    <text x="85" y="25" text-anchor="middle" class="b">Amazon S3</text>
+    <text x="85" y="44" text-anchor="middle" class="s">photos · documents</text></g>
+<g transform="translate(790,290)">
+    <rect width="170" height="58" rx="10" fill="#f6f8fa" stroke="#b35c00"/>
+    <text x="85" y="25" text-anchor="middle" class="b">CloudFront CDN</text>
+    <text x="85" y="44" text-anchor="middle" class="s">WebP · cached at edge</text></g>
+<g transform="translate(140,330)">
+    <rect width="160" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="80" y="25" text-anchor="middle" class="b">GitHub Actions</text>
+    <text x="80" y="44" text-anchor="middle" class="s">build · test · deploy</text></g>
+<g transform="translate(380,330)">
+    <rect width="140" height="58" rx="10" fill="#f6f8fa" stroke="#b35c00"/>
+    <text x="70" y="25" text-anchor="middle" class="b">Amazon ECR</text>
+    <text x="70" y="44" text-anchor="middle" class="s">Docker images</text></g>
+<text x="500" y="414" class="s" text-anchor="middle">Keyless OIDC role · deploy via SSM Run Command · auto-rollback on failed health check</text>
+</svg>

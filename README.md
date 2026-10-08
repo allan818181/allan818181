@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:3fb950&height=210&section=header&text=Allan%20Muganyizi%20Deus&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%26%20DevOps%20Engineer%20%C2%B7%20Dar%20es%20Salaam%2C%20Tanzania&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Allan Muganyizi Deus, Full-Stack and DevOps Engineer"/>
+<img src="assets/banner.svg" width="100%" alt="Allan Muganyizi Deus, Full-Stack and DevOps Engineer"/>
 
 <p align="center">
   <a href="https://github.com/allan818181"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=I+build+production+web+systems+and+run+them+on+AWS.;Next.js+%C2%B7+React+%C2%B7+React+Native+%C2%B7+Django;Docker+%C2%B7+GitHub+Actions+%C2%B7+AWS+%C2%B7+PostgreSQL;From+the+first+commit+to+a+monitored+live+system." alt="Typing animation of my focus areas"/></a>
@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/Open%20to-full--time%20%26%20remote%20roles-3fb950?style=for-the-badge" alt="Open to full-time and remote roles"/>
   <a href="https://www.linkedin.com/in/allan-deus-4b888631a"><img src="https://img.shields.io/badge/LinkedIn-Allan%20Deus-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:allandeus014@gmail.com"><img src="https://img.shields.io/badge/Email-allandeus014%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=allan818181&style=for-the-badge&color=1f6feb&label=Profile%20views" alt="Profile views"/>
 </p>
 
 ## About me
@@ -29,21 +28,10 @@ I'm a full-stack engineer who also owns what happens after the code is written: 
 
 A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,800+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
 
-```mermaid
-flowchart LR
-  U([Visitors · 7 languages · 4 currencies]) -->|HTTPS| C[Caddy · auto TLS]
-  subgraph EC2["AWS EC2 · Docker Compose"]
-    C --> A[Next.js 16 app]
-    A --> R[(Redis · cache + queue)]
-    R --> W[BullMQ worker · photo pipeline, FX rates]
-  end
-  A --> N[(Neon PostgreSQL · Prisma)]
-  W --> N
-  W --> S3[(Amazon S3)]
-  S3 --> CF[CloudFront CDN] --> U
-  G[GitHub Actions] -->|OIDC role, no stored keys| ECR[(Amazon ECR)]
-  G -->|SSM Run Command| EC2
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg"/>
+  <img src="assets/architecture-light.svg" width="100%" alt="Architecture: visitors reach Caddy and Next.js on EC2 with Redis and a worker; data in Neon PostgreSQL; photos in S3 behind CloudFront; GitHub Actions deploys images from ECR with a keyless OIDC role"/>
+</picture>
 
 | | What I built |
 |---|---|
