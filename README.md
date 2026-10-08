@@ -62,6 +62,13 @@ A multilingual car sales platform with a public storefront and three portals (cu
 
 ## 🚀 Featured projects
 
+<p>
+  <b>Live demos:</b>&nbsp;
+  <a href="https://allan818181.github.io/tanzania-stays/"><img src="https://img.shields.io/badge/Tanzania%20Stays-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="Tanzania Stays live demo"/></a>
+  <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
+  <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
+</p>
+
 | Project | What it is | Stack |
 |---|---|---|
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
