@@ -66,8 +66,6 @@ A multilingual car sales platform with a public storefront and three portals (cu
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 </p>
 
-<p align="center"><a href="https://allan818181.github.io/tanzania-stays/"><img src="assets/showcase/stays.webp" width="80%" alt="Tanzania Stays live site: villa rentals and sales in Tanzania"/></a><br/><sub><b>Tanzania Stays</b> · live on GitHub Pages, deployed by a GitHub Actions workflow</sub></p>
-
 ## 🧰 Tech stack
 
 | | |
@@ -97,6 +95,8 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | [**Inventory System**](https://github.com/allan818181/inventory-frontend) | Full-stack inventory: JWT [REST API](https://github.com/allan818181/inventory-system-backend) + React dashboard | Django REST · React · TS |
 | [**Salon Website**](https://github.com/allan818181/salon-web) | Bilingual (EN/SW) site, containerized for production | Django · Tailwind · Docker |
 | [**CertifyWell**](https://github.com/allan818181/exam-portal) | Online exam portal with token-protected exams and grading | PHP · MySQL · JavaScript |
+
+<p align="center"><a href="https://allan818181.github.io/tanzania-stays/"><img src="assets/showcase/stays.webp" width="80%" alt="Tanzania Stays live site: villa rentals and sales in Tanzania"/></a><br/><sub><b>Tanzania Stays</b> · live on GitHub Pages, deployed by a GitHub Actions workflow</sub></p>
 
 ## 📈 Activity
 
