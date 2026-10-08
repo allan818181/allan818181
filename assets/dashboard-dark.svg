@@ -14,10 +14,10 @@
 <circle cx="32" cy="34" r="5" fill="#3fb950" class="pulse"/>
 <circle cx="32" cy="34" r="5" fill="#3fb950"/>
 <text x="46" y="40" class="title">Live engineering dashboard</text>
-<text x="816" y="40" class="small" text-anchor="end">auto-built by GitHub Actions · Thu, 08 Oct 2026 10:34 UTC</text>
+<text x="816" y="40" class="small" text-anchor="end">auto-built by GitHub Actions · Thu, 08 Oct 2026 11:08 UTC</text>
 <g class="rise"><g transform="translate(24,64)">
       <rect width="184" height="76" rx="10" fill="#161b22" stroke="#30363d"/>
-      <text x="16" y="38" class="big">66</text>
+      <text x="16" y="38" class="big">73</text>
       <text x="16" y="60" class="small">Contributions (1 yr)</text></g><g transform="translate(224,64)">
       <rect width="184" height="76" rx="10" fill="#161b22" stroke="#30363d"/>
       <text x="16" y="38" class="big">20</text>
@@ -45,6 +45,6 @@
     <text x="16" y="46" class="small">Production car sales platform · Next.js on AWS</text>
     <text x="346" y="28" class="small" text-anchor="end">Moving to new domain</text>
     <circle cx="358" cy="24" r="4" fill="#d29922" class="pulse"/><circle cx="358" cy="24" r="4" fill="#d29922"/>
-    <g transform="translate(16,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">15,800+</text><text y="16" class="small">vehicles listed</text></g><g transform="translate(136,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">313k</text><text y="16" class="small">photos on S3 + CDN</text></g><g transform="translate(256,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">7</text><text y="16" class="small">site languages</text></g><g transform="translate(16,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">3</text><text y="16" class="small">portals</text></g><g transform="translate(136,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">CI/CD</text><text y="16" class="small">OIDC deploys</text></g><g transform="translate(256,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">4</text><text y="16" class="small">currencies</text></g>
+    <g transform="translate(16,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">15,000+</text><text y="16" class="small">vehicles listed</text></g><g transform="translate(136,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">313k</text><text y="16" class="small">photos on S3 + CDN</text></g><g transform="translate(256,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">7</text><text y="16" class="small">site languages</text></g><g transform="translate(16,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">3</text><text y="16" class="small">portals</text></g><g transform="translate(136,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">CI/CD</text><text y="16" class="small">OIDC deploys</text></g><g transform="translate(256,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">4</text><text y="16" class="small">currencies</text></g>
   </g></g>
 </svg>
