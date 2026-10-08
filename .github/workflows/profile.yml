@@ -1,0 +1,56 @@
+name: Build profile dashboard
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # every day, 06:17 in Dar es Salaam
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "production-facts.json", ".github/workflows/profile.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build the live dashboard from GitHub data
+        run: node scripts/dashboard.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the new dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "Refresh live dashboard"
+          git push
+
+      - name: Draw the contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Publish the snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Refresh contribution snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

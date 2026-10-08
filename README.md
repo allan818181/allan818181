@@ -1,55 +1,97 @@
-👋 Hi, I'm Allan Deus  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:3fb950&height=210&section=header&text=Allan%20Muganyizi%20Deus&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%26%20DevOps%20Engineer%20%C2%B7%20Dar%20es%20Salaam%2C%20Tanzania&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Allan Muganyizi Deus, Full-Stack and DevOps Engineer"/>
 
-🚀 Backend Developer | 🛡️ Cybersecurity Enthusiast | 🌍 HealthTech System Builder  
+<p align="center">
+  <a href="https://github.com/allan818181"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=I+build+production+web+systems+and+run+them+on+AWS.;Next.js+%C2%B7+React+%C2%B7+React+Native+%C2%B7+Django;Docker+%C2%B7+GitHub+Actions+%C2%B7+AWS+%C2%B7+PostgreSQL;From+the+first+commit+to+a+monitored+live+system." alt="Typing animation of my focus areas"/></a>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to-full--time%20%26%20remote%20roles-3fb950?style=for-the-badge" alt="Open to full-time and remote roles"/>
+  <a href="https://www.linkedin.com/in/allan-deus-4b888631a"><img src="https://img.shields.io/badge/LinkedIn-Allan%20Deus-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:allandeus014@gmail.com"><img src="https://img.shields.io/badge/Email-allandeus014%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=allan818181&style=for-the-badge&color=1f6feb&label=Profile%20views" alt="Profile views"/>
+</p>
 
+## About me
 
- 💼 About Me
+I'm a full-stack engineer who also owns what happens after the code is written: infrastructure, deployments, security and monitoring.
 
-I am a backend-focused developer building secure, scalable, and impactful systems.
+- 🚗 **Right now:** I build and run the production platform for **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa office in Dar es Salaam). I designed it, wrote it, and deployed it to AWS with automated, keyless CI/CD.
+- 🧱 **How I work:** typed code, small reviewed commits, infrastructure as scripts, nothing manual that a pipeline can do.
+- 📱 **Stack:** web (Next.js, React), mobile (React Native, Flutter), backend (Node.js, Django), cloud (AWS, Docker, GitHub Actions).
+- 🌍 **Based in** Dar es Salaam (EAT, UTC+3). I work in English and Swahili.
 
-Currently developing systemsand learning machine learning and Artifial Intelligence so as to build modern systems 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-dark.svg"/>
+  <img src="assets/dashboard-light.svg" width="100%" alt="Live engineering dashboard, rebuilt every day by GitHub Actions"/>
+</picture>
 
+## ⭐ Flagship: Tanzanite Auto Traders (production)
 
+A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,800+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
 
- 🛠️ Tech Stack
+```mermaid
+flowchart LR
+  U([Visitors · 7 languages · 4 currencies]) -->|HTTPS| C[Caddy · auto TLS]
+  subgraph EC2["AWS EC2 · Docker Compose"]
+    C --> A[Next.js 16 app]
+    A --> R[(Redis · cache + queue)]
+    R --> W[BullMQ worker · photo pipeline, FX rates]
+  end
+  A --> N[(Neon PostgreSQL · Prisma)]
+  W --> N
+  W --> S3[(Amazon S3)]
+  S3 --> CF[CloudFront CDN] --> U
+  G[GitHub Actions] -->|OIDC role, no stored keys| ECR[(Amazon ECR)]
+  G -->|SSM Run Command| EC2
+```
 
- 🧠 Backend
+| | What I built |
+|---|---|
+| **Product** | Storefront with smart search, filters and infinite scroll; customer accounts with orders and documents; staff portal with a photo pipeline (ZIP upload, WebP variants, watermarking); admin portal with reports, analytics, content editing and SEO controls |
+| **Delivery** | GitHub Actions builds a Docker image, pushes it to ECR and deploys through SSM; database migrations run automatically; a failed health check rolls back to the previous version |
+| **Security** | Short-lived OIDC credentials (no long-lived AWS keys), least-privilege IAM, no open SSH port (SSM only), HSTS/CSP headers, rate limiting, role-based access |
+| **Operations** | Daily EBS snapshots, budget and SNS alerts, health checks, query monitoring, and cost tuning (e.g. cutting database egress by loading only what each page shows) |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS%20EC2%20%C2%B7%20S3%20%C2%B7%20CloudFront%20%C2%B7%20IAM%20%C2%B7%20SSM-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+</p>
 
+## 🧰 Tech stack
 
-🎨 Frontend
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,python,java,php,dart" alt="TypeScript, JavaScript, Python, Java, PHP, Dart"/> |
+| **Frontend & mobile** | <img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind,html,css,flutter" alt="Next.js, React, Vite, Tailwind, HTML, CSS, Flutter"/> <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="40" alt="React Native"/> |
+| **Backend & data** | <img src="https://skillicons.dev/icons?i=nodejs,express,django,prisma,postgres,mysql,redis,supabase" alt="Node.js, Express, Django, Prisma, PostgreSQL, MySQL, Redis, Supabase"/> |
+| **DevOps & cloud** | <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,bash,nginx,git,vercel" alt="AWS, Docker, GitHub Actions, Linux, Bash, Nginx, Git, Vercel"/> |
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+## 🚀 Featured projects
 
+| Project | What it is | Stack |
+|---|---|---|
+| [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
+| [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
+| [**Dar es Salaam Data Portal**](https://github.com/allan818181/dar-data-portal) | Open-data portal: datasets, a pandas/Matplotlib transform engine, REST API, PDF/Excel reports | Django · DRF · pandas |
+| [**LBLS Library System**](https://github.com/allan818181/desktop-library-management-system) | Desktop library system: loans, fines, analytics, audit log, report builder | Python · Tkinter · PostgreSQL |
+| [**Abode Harmony**](https://github.com/allan818181/property-management-system) | Landlord and tenant property management with receipts and maintenance requests | React · TypeScript · Supabase |
+| [**Inventory System**](https://github.com/allan818181/inventory-frontend) | Full-stack inventory: JWT [REST API](https://github.com/allan818181/inventory-system-backend) + React dashboard | Django REST · React · TS |
+| [**Salon Website**](https://github.com/allan818181/salon-web) | Bilingual (EN/SW) site, containerized for production | Django · Tailwind · Docker |
+| [**CertifyWell**](https://github.com/allan818181/exam-portal) | Online exam portal with token-protected exams and grading | PHP · MySQL · JavaScript |
 
+## 📈 Activity
 
- 📱 Mobile
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/allan818181/allan818181/output/snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/allan818181/allan818181/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake, regenerated daily"/>
+</picture>
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+<p align="center"><sub>The dashboard and the snake above are rebuilt every day by a GitHub Actions workflow in this repository (<code>scripts/dashboard.mjs</code>).</sub></p>
 
-
-
-🚀 Current Focus
-
- Building scalable Django systems
- Advanced authentication & security
- Role-Based Access Control (RBAC)
- PostgreSQL optimization
-API development
- System architecture design
-
-
-
- 🎯 Vision
-
-To become a globally recognized backend engineer building secure, enterprise-level systems.
-
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,55:1f6feb,100:0d1117&height=110&section=footer" width="100%" alt=""/>

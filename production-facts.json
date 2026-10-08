@@ -1,0 +1,13 @@
+{
+  "name": "Tanzanite Auto Traders",
+  "tagline": "Production car sales platform · Next.js on AWS",
+  "healthUrl": "",
+  "metrics": [
+    { "value": "15,800+", "label": "vehicles listed" },
+    { "value": "313k", "label": "photos on S3 + CDN" },
+    { "value": "7", "label": "site languages" },
+    { "value": "3", "label": "portals" },
+    { "value": "CI/CD", "label": "OIDC deploys" },
+    { "value": "4", "label": "currencies" }
+  ]
+}

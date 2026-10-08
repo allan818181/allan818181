@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="330" viewBox="0 0 840 330" role="img" aria-label="Live GitHub dashboard for allan818181">
+<style>
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #e6edf3; }
+  .title { font-size: 18px; font-weight: 700; }
+  .big { font-size: 28px; font-weight: 700; fill: #58a6ff; }
+  .label { font-size: 13px; font-weight: 600; }
+  .small { font-size: 12px; fill: #8b949e; font-weight: 400; }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+  @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(1.6); } }
+  .rise { animation: rise .8s ease-out both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+</style>
+<rect width="840" height="330" rx="14" fill="#0d1117" stroke="#30363d"/>
+<circle cx="32" cy="34" r="5" fill="#3fb950" class="pulse"/>
+<circle cx="32" cy="34" r="5" fill="#3fb950"/>
+<text x="46" y="40" class="title">Live engineering dashboard</text>
+<text x="816" y="40" class="small" text-anchor="end">auto-built by GitHub Actions · Thu, 08 Oct 2026 09:37 UTC</text>
+<g class="rise"><g transform="translate(24,64)">
+      <rect width="184" height="76" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="16" y="38" class="big">50</text>
+      <text x="16" y="60" class="small">Contributions (1 yr)</text></g><g transform="translate(224,64)">
+      <rect width="184" height="76" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="16" y="38" class="big">23</text>
+      <text x="16" y="60" class="small">Public repositories</text></g><g transform="translate(424,64)">
+      <rect width="184" height="76" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="16" y="38" class="big">6</text>
+      <text x="16" y="60" class="small">Languages in use</text></g><g transform="translate(624,64)">
+      <rect width="184" height="76" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="16" y="38" class="big" style="font-size:20px">55 days ago</text>
+      <text x="16" y="60" class="small">Last active</text></g></g>
+<text x="24" y="182" class="label">Languages across my repositories</text>
+<rect x="24" y="196" width="380" height="10" rx="5" fill="#161b22"/>
+<clipPath id="r"><rect x="24" y="196" width="380" height="10" rx="5"/></clipPath>
+<g clip-path="url(#r)"><rect x="24.0" y="196" width="142.9" height="10" fill="#3572A5"/><rect x="168.9" y="196" width="107.4" height="10" fill="#3178c6"/><rect x="278.2" y="196" width="48.1" height="10" fill="#e34c26"/><rect x="328.3" y="196" width="37.8" height="10" fill="#f1e05a"/><rect x="368.1" y="196" width="21.2" height="10" fill="#4F5D95"/><rect x="391.4" y="196" width="10.6" height="10" fill="#663399"/></g>
+<circle cx="29" cy="228" r="5" fill="#3572A5"/>
+      <text x="40" y="232" class="label">Python <tspan class="small">38.1%</tspan></text><circle cx="219" cy="228" r="5" fill="#3178c6"/>
+      <text x="230" y="232" class="label">TypeScript <tspan class="small">28.8%</tspan></text><circle cx="29" cy="254" r="5" fill="#e34c26"/>
+      <text x="40" y="258" class="label">HTML <tspan class="small">13.2%</tspan></text><circle cx="219" cy="254" r="5" fill="#f1e05a"/>
+      <text x="230" y="258" class="label">JavaScript <tspan class="small">10.5%</tspan></text><circle cx="29" cy="280" r="5" fill="#4F5D95"/>
+      <text x="40" y="284" class="label">PHP <tspan class="small">6.1%</tspan></text><circle cx="219" cy="280" r="5" fill="#663399"/>
+      <text x="230" y="284" class="label">CSS <tspan class="small">3.3%</tspan></text>
+<g class="rise"><g transform="translate(440,166)">
+    <rect width="376" height="140" rx="10" fill="#161b22" stroke="#30363d"/>
+    <text x="16" y="28" class="label">Tanzanite Auto Traders</text>
+    <text x="16" y="46" class="small">Production car sales platform · Next.js on AWS</text>
+    <text x="346" y="28" class="small" text-anchor="end">Moving to new domain</text>
+    <circle cx="358" cy="24" r="4" fill="#d29922" class="pulse"/><circle cx="358" cy="24" r="4" fill="#d29922"/>
+    <g transform="translate(16,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">15,800+</text><text y="16" class="small">vehicles listed</text></g><g transform="translate(136,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">313k</text><text y="16" class="small">photos on S3 + CDN</text></g><g transform="translate(256,70)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">7</text><text y="16" class="small">site languages</text></g><g transform="translate(16,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">3</text><text y="16" class="small">portals</text></g><g transform="translate(136,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">CI/CD</text><text y="16" class="small">OIDC deploys</text></g><g transform="translate(256,110)"><text class="label" fill="#58a6ff" style="fill:#58a6ff">4</text><text y="16" class="small">currencies</text></g>
+  </g></g>
+</svg>
