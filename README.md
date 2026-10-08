@@ -26,7 +26,7 @@ I'm a full-stack engineer who also owns what happens after the code is written: 
 
 ## ⭐ Flagship: Tanzanite Auto Traders (production)
 
-A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
+A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**. **Live: [tanzaniteauto.com](https://tanzaniteauto.com)** · The code is private (client work); here is how it is built and run.
 
 <table>
   <tr>
@@ -79,6 +79,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 
 <p>
   <b>Live demos:</b>&nbsp;
+  <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Auto%20Traders-live-3fb950?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Tanzanite Auto Traders live site"/></a>
   <a href="https://allan818181.github.io/tanzania-stays/"><img src="https://img.shields.io/badge/Tanzania%20Stays-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="Tanzania Stays live demo"/></a>
   <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
   <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
