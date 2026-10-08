@@ -24,20 +24,25 @@ I'm a full-stack engineer who also owns what happens after the code is written: 
   <img src="assets/dashboard-light.svg" width="100%" alt="Live engineering dashboard, rebuilt every day by GitHub Actions"/>
 </picture>
 
-## ⭐ Flagship: Tanzanite Auto Traders (production)
+## ⭐ Flagship: [Tanzanite Auto Traders](https://tanzaniteauto.com) (production)
 
-A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**. **Live: [tanzaniteauto.com](https://tanzaniteauto.com)** · The code is private (client work); here is how it is built and run.
+A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
+
+<p align="center">
+  <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Visit%20the%20live%20site-tanzaniteauto.com-1f6feb?style=for-the-badge" height="38" alt="Visit the live site: tanzaniteauto.com"/></a>
+  <a href="https://tanzaniteauto.com/stock-list"><img src="https://img.shields.io/badge/Browse-15%2C000%2B%20cars-3fb950?style=for-the-badge" height="38" alt="Browse 15,000+ cars"/></a>
+</p>
 
 <table>
   <tr>
-    <td width="74%"><img src="assets/showcase/tz-home.webp" alt="Tanzanite Auto Traders homepage: search, specialty commercial vehicles and stock highlights"/></td>
-    <td width="26%" align="center"><img src="assets/showcase/tz-mobile.webp" alt="Tanzanite homepage on a phone"/></td>
+    <td width="74%"><a href="https://tanzaniteauto.com"><img src="assets/showcase/tz-home.webp" alt="Tanzanite Auto Traders homepage: search, specialty commercial vehicles and stock highlights"/></a></td>
+    <td width="26%" align="center"><a href="https://tanzaniteauto.com"><img src="assets/showcase/tz-mobile.webp" alt="Tanzanite homepage on a phone"/></a></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td width="50%"><img src="assets/showcase/tz-stock.webp" alt="Stock list with filters, brand counts and 15,047 cars in stock"/><p align="center"><sub><b>Stock list</b> · filters, brand counts, infinite scroll</sub></p></td>
-    <td width="50%"><img src="assets/showcase/tz-vehicle.webp" alt="Vehicle page with photo gallery, price breakdown and enquiry actions"/><p align="center"><sub><b>Vehicle page</b> · 19-photo gallery, live price breakdown, WhatsApp enquiry</sub></p></td>
+    <td width="50%"><a href="https://tanzaniteauto.com/stock-list"><img src="assets/showcase/tz-stock.webp" alt="Stock list with filters, brand counts and 15,047 cars in stock"/></a><p align="center"><sub><b>Stock list</b> · filters, brand counts, infinite scroll</sub></p></td>
+    <td width="50%"><a href="https://tanzaniteauto.com/vehicle/DBQ2796"><img src="assets/showcase/tz-vehicle.webp" alt="Vehicle page with photo gallery, price breakdown and enquiry actions"/></a><p align="center"><sub><b>Vehicle page</b> · 19-photo gallery, live price breakdown, WhatsApp enquiry</sub></p></td>
   </tr>
 </table>
 
