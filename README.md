@@ -6,7 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to-full--time%20%26%20remote%20roles-3fb950?style=for-the-badge" alt="Open to full-time and remote roles"/>
-  <a href="https://www.linkedin.com/in/allan-deus-4b888631a"><img src="https://img.shields.io/badge/LinkedIn-Allan%20Deus-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/allan-deus-devops"><img src="https://img.shields.io/badge/LinkedIn-Allan%20Deus-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://allan.tanzaniteauto.com"><img src="https://img.shields.io/badge/Portfolio-allan.tanzaniteauto.com-34d399?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Portfolio"/></a>
   <a href="mailto:allandeus014@gmail.com"><img src="https://img.shields.io/badge/Email-allandeus014%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -85,14 +86,12 @@ A multilingual car sales platform with a public storefront and three portals (cu
 <p>
   <b>Live demos:</b>&nbsp;
   <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Auto%20Traders-live-3fb950?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Tanzanite Auto Traders live site"/></a>
-  <a href="https://allan818181.github.io/tanzania-stays/"><img src="https://img.shields.io/badge/Tanzania%20Stays-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="Tanzania Stays live demo"/></a>
   <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
   <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
 </p>
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Tanzania Stays**](https://github.com/allan818181/tanzania-stays) · [live](https://allan818181.github.io/tanzania-stays/) | Villa rentals and sales site with availability calendars and a blog | React · TypeScript · Vite |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
 | [**Dar es Salaam Data Portal**](https://github.com/allan818181/dar-data-portal) | Open-data portal: datasets, a pandas/Matplotlib transform engine, REST API, PDF/Excel reports | Django · DRF · pandas |
@@ -102,7 +101,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | [**Salon Website**](https://github.com/allan818181/salon-web) | Bilingual (EN/SW) site, containerized for production | Django · Tailwind · Docker |
 | [**CertifyWell**](https://github.com/allan818181/exam-portal) | Online exam portal with token-protected exams and grading | PHP · MySQL · JavaScript |
 
-<p align="center"><a href="https://allan818181.github.io/tanzania-stays/"><img src="assets/showcase/stays.webp" width="80%" alt="Tanzania Stays live site: villa rentals and sales in Tanzania"/></a><br/><sub><b>Tanzania Stays</b> · live on GitHub Pages, deployed by a GitHub Actions workflow</sub></p>
+<p align="center"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/portfolio.jpg" width="80%" alt="Portfolio of Allan Muganyizi Deus, DevOps and Systems Engineer"/></a><br/><sub><b>allan.tanzaniteauto.com</b> · static site on S3 + CloudFront, CloudFormation, keyless GitHub Actions deploys</sub></p>
 
 ## 📈 Activity
 
