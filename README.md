@@ -86,12 +86,14 @@ A multilingual car sales platform with a public storefront and three portals (cu
 <p>
   <b>Live demos:</b>&nbsp;
   <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Auto%20Traders-live-3fb950?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Tanzanite Auto Traders live site"/></a>
+  <a href="https://tech.tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Technologies-live-3fb950?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Tanzanite Technologies live site"/></a>
   <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
   <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
 </p>
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Tanzanite Technologies**](https://tech.tanzaniteauto.com) | My software company's website: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
 | [**Dar es Salaam Data Portal**](https://github.com/allan818181/dar-data-portal) | Open-data portal: datasets, a pandas/Matplotlib transform engine, REST API, PDF/Excel reports | Django · DRF · pandas |
@@ -100,6 +102,14 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | [**Inventory System**](https://github.com/allan818181/inventory-frontend) | Full-stack inventory: JWT [REST API](https://github.com/allan818181/inventory-system-backend) + React dashboard | Django REST · React · TS |
 | [**Salon Website**](https://github.com/allan818181/salon-web) | Bilingual (EN/SW) site, containerized for production | Django · Tailwind · Docker |
 | [**CertifyWell**](https://github.com/allan818181/exam-portal) | Online exam portal with token-protected exams and grading | PHP · MySQL · JavaScript |
+
+<table>
+  <tr>
+    <td width="74%"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-home.webp" alt="Tanzanite Technologies website: black, yellow and blue header, banner slider and services"/></a></td>
+    <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile.webp" alt="Tanzanite Technologies website on a phone"/></a></td>
+  </tr>
+</table>
+<p align="center"><sub><b>tech.tanzaniteauto.com</b> · my company's site, a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
 
 <p align="center"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/portfolio.jpg" width="80%" alt="Portfolio of Allan Muganyizi Deus, DevOps and Systems Engineer"/></a><br/><sub><b>allan.tanzaniteauto.com</b> · static site on S3 + CloudFront, CloudFormation, keyless GitHub Actions deploys</sub></p>
 
