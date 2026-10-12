@@ -16,6 +16,7 @@
 I'm a full-stack engineer who also owns what happens after the code is written: infrastructure, deployments, security and monitoring.
 
 - 🚗 **Right now:** I build and run the production platform for **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa office in Dar es Salaam). I designed it, wrote it, and deployed it to AWS with automated, keyless CI/CD.
+- 💻 **Member of [Tanzanite Technologies](https://tech.tanzaniteauto.com):** a Tanzanian software company that builds websites, mobile apps, business systems, SEO and cloud hosting for businesses across East Africa. I work on software and cloud engineering.
 - 🧱 **How I work:** typed code, small reviewed commits, infrastructure as scripts, nothing manual that a pipeline can do.
 - 📱 **Stack:** web (Next.js, React), mobile (React Native, Flutter), backend (Node.js, Django), cloud (AWS, Docker, GitHub Actions).
 - 🌍 **Based in** Dar es Salaam (EAT, UTC+3). I work in English and Swahili.
@@ -93,7 +94,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Tanzanite Technologies**](https://tech.tanzaniteauto.com) | My software company's website: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
+| [**Tanzanite Technologies**](https://tech.tanzaniteauto.com) | Website of Tanzanite Technologies, a software company where I am a member: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
 | [**Dar es Salaam Data Portal**](https://github.com/allan818181/dar-data-portal) | Open-data portal: datasets, a pandas/Matplotlib transform engine, REST API, PDF/Excel reports | Django · DRF · pandas |
@@ -109,7 +110,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
     <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile.webp" alt="Tanzanite Technologies website on a phone"/></a></td>
   </tr>
 </table>
-<p align="center"><sub><b>tech.tanzaniteauto.com</b> · my company's site, a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
+<p align="center"><sub><b>tech.tanzaniteauto.com</b> · Tanzanite Technologies (I am a member), a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
 
 <p align="center"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/portfolio.jpg" width="80%" alt="Portfolio of Allan Muganyizi Deus, DevOps and Systems Engineer"/></a><br/><sub><b>allan.tanzaniteauto.com</b> · static site on S3 + CloudFront, CloudFormation, keyless GitHub Actions deploys</sub></p>
 
