@@ -58,6 +58,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | | What I built |
 |---|---|
 | **Product** | Storefront with smart search, filters and infinite scroll; customer accounts with orders and documents; staff portal with a photo pipeline (ZIP upload, WebP variants, watermarking); admin portal with reports, analytics, content editing and SEO controls |
+| **Invoicing** | Replaced the sales team's Google Apps Script invoice system: numbered invoices with HS codes, PDF generation, email delivery to customers through Amazon SES, paid and overdue tracking, audit history; every legacy invoice and 384 audit events imported by a repeatable script; staff Android app (Capacitor) moved to the new system |
 | **Delivery** | GitHub Actions builds a Docker image, pushes it to ECR and deploys through SSM; database migrations run automatically; a failed health check rolls back to the previous version |
 | **Security** | Short-lived OIDC credentials (no long-lived AWS keys), least-privilege IAM, no open SSH port (SSM only), HSTS/CSP headers, rate limiting, role-based access |
 | **Operations** | Daily EBS snapshots, budget and SNS alerts, health checks, query monitoring, and cost tuning (e.g. cutting database egress by loading only what each page shows) |
@@ -95,6 +96,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | Project | What it is | Stack |
 |---|---|---|
 | [**Tanzanite Technologies**](https://tech.tanzaniteauto.com) | Website of Tanzanite Technologies, a software company where I am a member: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
+| **Tanzanite Invoice System** (private, production) | Invoicing inside the Tanzanite staff and admin portals, moved off Google Apps Script: PDF invoices, customer email delivery, payment tracking, audit history and an Android app for staff | Next.js · Prisma · Amazon SES · Capacitor |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
 | [**Dar es Salaam Data Portal**](https://github.com/allan818181/dar-data-portal) | Open-data portal: datasets, a pandas/Matplotlib transform engine, REST API, PDF/Excel reports | Django · DRF · pandas |
