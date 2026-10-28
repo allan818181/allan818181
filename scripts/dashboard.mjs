@@ -43,7 +43,8 @@ const u = json.data.user;
 
 // Languages: every repo counts equally (its own percentages, summed), so one
 // repo with a lot of generated HTML cannot swamp the rest.
-const SKIP = new Set(["PowerShell", "Batchfile", "Procfile", "Dockerfile", "Shell", "Makefile", "Roff", "Meson", "Smarty", "Cython", "Fortran", "C", "C++", "Lua", "Go Template", "Hack", "PLpgSQL"]);
+// HTML and CSS are markup, not programming languages, so they are left out.
+const SKIP = new Set(["HTML", "CSS", "SCSS", "PowerShell", "Batchfile", "Procfile", "Dockerfile", "Shell", "Makefile", "Roff", "Meson", "Smarty", "Cython", "Fortran", "C", "C++", "Lua", "Go Template", "Hack", "PLpgSQL"]);
 const share = new Map();
 const colors = new Map();
 for (const repo of u.repositories.nodes) {
@@ -59,6 +60,19 @@ const langSum = [...share.values()].reduce((a, b) => a + b, 0) || 1;
 const langs = [...share.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6)
   .map(([name, v]) => ({ name, pct: (v / langSum) * 100, color: colors.get(name) }));
 
+// Production systems from production-facts.json, each with a live health check.
+const facts = JSON.parse(await readFile("production-facts.json", "utf8"));
+const systems = await Promise.all(facts.systems.map(async (s) => {
+  try {
+    const t0 = Date.now();
+    const r = await fetch(s.healthUrl, { signal: AbortSignal.timeout(15000) });
+    return { ...s, state: r.ok ? "ok" : "down", text: r.ok ? `Online · ${Date.now() - t0} ms` : `HTTP ${r.status}` };
+  } catch {
+    return { ...s, state: "down", text: "Unreachable" };
+  }
+}));
+const online = systems.filter((s) => s.state === "ok").length;
+
 const cc = u.contributionsCollection;
 const days = cc.contributionCalendar.weeks.flatMap((w) => w.contributionDays);
 const lastActive = [...days].reverse().find((d) => d.contributionCount > 0)?.date;
@@ -66,23 +80,9 @@ const ago = lastActive ? Math.round((Date.parse(new Date().toISOString().slice(0
 const stats = [
   { label: "Contributions (1 yr)", value: cc.contributionCalendar.totalContributions },
   { label: "Public repositories", value: u.repositories.totalCount },
-  { label: "Languages in use", value: share.size },
+  { label: "Live systems online", value: `${online} of ${systems.length}` },
   { label: "Last active", value: ago === null ? "n/a" : ago === 0 ? "Today" : ago === 1 ? "Yesterday" : `${ago} days ago` },
 ];
-
-// Flagship production system: facts from production-facts.json, plus a live
-// health check of its URL when one is set.
-const facts = JSON.parse(await readFile("production-facts.json", "utf8"));
-let health = { state: "building", text: "Moving to new domain" };
-if (facts.healthUrl) {
-  try {
-    const t0 = Date.now();
-    const r = await fetch(facts.healthUrl, { signal: AbortSignal.timeout(15000) });
-    health = r.ok ? { state: "ok", text: `Online · ${Date.now() - t0} ms` } : { state: "down", text: `HTTP ${r.status}` };
-  } catch {
-    health = { state: "down", text: "Unreachable" };
-  }
-}
 
 const THEMES = {
   dark: { bg: "#0d1117", card: "#161b22", border: "#30363d", text: "#e6edf3", muted: "#8b949e", accent: "#58a6ff", ok: "#3fb950", warn: "#d29922", bad: "#f85149" },
@@ -112,14 +112,18 @@ function render(t) {
     return `<circle cx="${x + 5}" cy="${y - 4}" r="5" fill="${l.color}"/>
       <text x="${x + 16}" y="${y}" class="label">${esc(l.name)} <tspan class="small">${l.pct.toFixed(1)}%</tspan></text>`;
   }).join("");
-  const dot = { ok: t.ok, building: t.warn, down: t.bad }[health.state];
+  const rows = systems.map((s, i) => {
+    const dot = s.state === "ok" ? t.ok : t.bad;
+    return `<g transform="translate(16,${52 + i * 22})">
+      <circle cx="4" cy="-4" r="4" fill="${dot}" class="pulse"/><circle cx="4" cy="-4" r="4" fill="${dot}"/>
+      <text x="16" class="label">${esc(s.name)}</text>
+      <text x="344" class="small" text-anchor="end">${esc(s.text)}</text></g>`;
+  }).join("");
   const panel = `<g transform="translate(440,166)">
     <rect width="376" height="140" rx="10" fill="${t.card}" stroke="${t.border}"/>
-    <text x="16" y="28" class="label">${esc(facts.name)}</text>
-    <text x="16" y="46" class="small">${esc(facts.tagline)}</text>
-    <text x="346" y="28" class="small" text-anchor="end">${esc(health.text)}</text>
-    <circle cx="358" cy="24" r="4" fill="${dot}" class="pulse"/><circle cx="358" cy="24" r="4" fill="${dot}"/>
-    ${facts.metrics.map((m, i) => `<g transform="translate(${16 + (i % 3) * 120},${70 + Math.floor(i / 3) * 40})"><text class="label" fill="${t.accent}" style="fill:${t.accent}">${esc(m.value)}</text><text y="16" class="small">${esc(m.label)}</text></g>`).join("")}
+    <text x="16" y="28" class="label">${esc(facts.title)}</text>
+    <text x="360" y="28" class="small" text-anchor="end">checked live</text>
+    ${rows}
   </g>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Live GitHub dashboard for ${LOGIN}">
@@ -140,7 +144,7 @@ function render(t) {
 <text x="46" y="40" class="title">Live engineering dashboard</text>
 <text x="${W - 24}" y="40" class="small" text-anchor="end">auto-built by GitHub Actions · ${esc(updated)}</text>
 <g class="rise">${tiles}</g>
-<text x="24" y="182" class="label">Languages across my repositories</text>
+<text x="24" y="182" class="label">Programming languages in my public repositories</text>
 <rect x="24" y="196" width="380" height="10" rx="5" fill="${t.card}"/>
 <clipPath id="r"><rect x="24" y="196" width="380" height="10" rx="5"/></clipPath>
 <g clip-path="url(#r)">${bar}</g>

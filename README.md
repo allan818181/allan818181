@@ -15,15 +15,16 @@
 
 I'm a full-stack engineer who also owns what happens after the code is written: infrastructure, deployments, security and monitoring.
 
-- 🚗 **Right now:** I build and run the production platform for **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa office in Dar es Salaam). I designed it, wrote it, and deployed it to AWS with automated, keyless CI/CD.
+- 🚗 **Right now:** I build and run the production platform for **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa Regional Office in Dar es Salaam). I designed it, wrote it, and deployed it to AWS with automated, keyless CI/CD.
+- 🐐 **Just shipped:** [**Shamba Langu**](https://d.tanzaniteauto.com), a farm records app for livestock owners: every animal, birth and death, plus every expense and worker's wage. Installable on the phone, in English and Kiswahili, live on AWS.
 - 💻 **Member of [Tanzanite Technologies](https://tech.tanzaniteauto.com):** a Tanzanian software company that builds websites, mobile apps, business systems, SEO and cloud hosting for businesses across East Africa. I work on software and cloud engineering.
 - 🧱 **How I work:** typed code, small reviewed commits, infrastructure as scripts, nothing manual that a pipeline can do.
 - 📱 **Stack:** web (Next.js, React), mobile (React Native, Flutter), backend (Node.js, Django), cloud (AWS, Docker, GitHub Actions).
-- 🌍 **Based in** Dar es Salaam (EAT, UTC+3). I work in English and Swahili.
+- 📍 **Location:** Dar es Salaam, Tanzania. I speak and write English and Kiswahili.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-dark.svg"/>
-  <img src="assets/dashboard-light.svg" width="100%" alt="Live engineering dashboard, rebuilt every day by GitHub Actions"/>
+  <img src="assets/dashboard-light.svg" width="100%" alt="Dashboard: contributions, public repositories, live production systems and programming languages"/>
 </picture>
 
 ## ⭐ Flagship: [Tanzanite Auto Traders](https://tanzaniteauto.com) (production)
@@ -74,6 +75,37 @@ A multilingual car sales platform with a public storefront and three portals (cu
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 </p>
 
+## 🐐 Shamba Langu (production)
+
+A farm records app for livestock owners, built for phones first. The owner keeps a full register of animals (goats, chickens or any other kind, one by one or as a flock) and of the farm's money. The code is private (client work).
+
+<p align="center">
+  <a href="https://d.tanzaniteauto.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Open%20the%20app-d.tanzaniteauto.com-1f6feb?style=for-the-badge" height="38" alt="Open the app: d.tanzaniteauto.com"/></a>
+</p>
+
+<table>
+  <tr>
+    <td width="74%"><a href="https://d.tanzaniteauto.com"><img src="assets/showcase/sl-home.webp" alt="Shamba Langu welcome screen: real farm photos with the line Every animal. Every shilling."/></a></td>
+    <td width="26%" align="center"><a href="https://d.tanzaniteauto.com"><img src="assets/showcase/sl-mobile.webp" alt="Shamba Langu on a phone"/></a></td>
+  </tr>
+</table>
+
+| | What I built |
+|---|---|
+| **Animals** | Register for any species, single animals or flocks; births, deaths, sales, treatments, vaccinations and egg counts on one timeline; breeding reports such as birth intervals, litter size and expected births |
+| **Money** | Expenses with emergency flag and receipt photo, income from sales, monthly budgets with alerts, worker salaries with advances and daily needs, weekly, monthly and yearly totals, print and CSV export |
+| **App feel** | Installable app (PWA) with splash screen, quick sign in with PIN or fingerprint (WebAuthn passkeys), push reminders with app icon count, offline screen, English and Kiswahili, more than one owner per farm |
+| **Delivery** | Own container on the same EC2 server behind Caddy, own Neon database, email through Amazon SES, keyless GitHub OIDC deploys on every push |
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PWA%20%C2%B7%20Web%20Push%20%C2%B7%20WebAuthn-5A0FC8?style=flat-square&logo=pwa&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS%20EC2%20%C2%B7%20SES-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+</p>
+
 ## 🧰 Tech stack
 
 | | |
@@ -88,6 +120,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 <p>
   <b>Live demos:</b>&nbsp;
   <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Auto%20Traders-live-3fb950?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Tanzanite Auto Traders live site"/></a>
+  <a href="https://d.tanzaniteauto.com"><img src="https://img.shields.io/badge/Shamba%20Langu-live-3fb950?style=for-the-badge&logo=pwa&logoColor=white" alt="Shamba Langu live app"/></a>
   <a href="https://tech.tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Technologies-live-3fb950?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Tanzanite Technologies live site"/></a>
   <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
   <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
@@ -95,6 +128,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Shamba Langu**](https://d.tanzaniteauto.com) (private, production) | Farm records app: animals, births and deaths, breeding reports, expenses, budgets and worker wages; installable, PIN and fingerprint sign in, English and Kiswahili | Next.js 16 · PostgreSQL · PWA · AWS |
 | [**Tanzanite Technologies**](https://tech.tanzaniteauto.com) | Website of Tanzanite Technologies, a software company where I am a member: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
 | **Tanzanite Invoice System** (private, production) | Invoicing inside the Tanzanite staff and admin portals, moved off Google Apps Script: PDF invoices, customer email delivery, payment tracking, audit history and an Android app for staff | Next.js · Prisma · Amazon SES · Capacitor |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
@@ -123,6 +157,6 @@ A multilingual car sales platform with a public storefront and three portals (cu
   <img src="https://raw.githubusercontent.com/allan818181/allan818181/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake, regenerated daily"/>
 </picture>
 
-<p align="center"><sub>The dashboard and the snake above are rebuilt every day by a GitHub Actions workflow in this repository (<code>scripts/dashboard.mjs</code>).</sub></p>
+<p align="center"><sub>The dashboard and the snake above are rebuilt every day by a GitHub Actions workflow in this repository (<code>scripts/dashboard.mjs</code>), which also checks that each production system is online.</sub></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,55:1f6feb,100:0d1117&height=110&section=footer" width="100%" alt=""/>
