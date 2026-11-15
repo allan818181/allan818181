@@ -142,8 +142,8 @@ A farm records app for livestock owners, built for phones first. The owner keeps
 
 <table>
   <tr>
-    <td width="74%"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-home.webp" alt="Tanzanite Tech Solutions website: black, yellow and blue header, banner slider and services"/></a></td>
-    <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile.webp" alt="Tanzanite Tech Solutions website on a phone"/></a></td>
+    <td width="74%"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-home-v2.webp" alt="Tanzanite Tech Solutions website: black, yellow and blue header, banner slider and services"/></a></td>
+    <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile-v2.webp" alt="Tanzanite Tech Solutions website on a phone"/></a></td>
   </tr>
 </table>
 <p align="center"><sub><b>tech.tanzaniteauto.com</b> · Tanzanite Tech Solutions (I am a member), a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
