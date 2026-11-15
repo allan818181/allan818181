@@ -17,7 +17,7 @@ I'm a full-stack engineer who also owns what happens after the code is written: 
 
 - 🚗 **Right now:** I build and run the production platform for **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa Regional Office in Dar es Salaam). I designed it, wrote it, and deployed it to AWS with automated, keyless CI/CD.
 - 🐐 **Just shipped:** [**Shamba Langu**](https://d.tanzaniteauto.com), a farm records app for livestock owners: every animal, birth and death, plus every expense and worker's wage. Installable on the phone, in English and Kiswahili, live on AWS.
-- 💻 **Member of [Tanzanite Technologies](https://tech.tanzaniteauto.com):** a Tanzanian software company that builds websites, mobile apps, business systems, SEO and cloud hosting for businesses across East Africa. I work on software and cloud engineering.
+- 💻 **Member of [Tanzanite Tech Solutions](https://tech.tanzaniteauto.com):** a Tanzanian software company that builds websites, mobile apps, business systems, SEO and cloud hosting for businesses across East Africa. I work on software and cloud engineering.
 - 🧱 **How I work:** typed code, small reviewed commits, infrastructure as scripts, nothing manual that a pipeline can do.
 - 📱 **Stack:** web (Next.js, React), mobile (React Native, Flutter), backend (Node.js, Django), cloud (AWS, Docker, GitHub Actions).
 - 📍 **Location:** Dar es Salaam, Tanzania. I speak and write English and Kiswahili.
@@ -121,7 +121,7 @@ A farm records app for livestock owners, built for phones first. The owner keeps
   <b>Live demos:</b>&nbsp;
   <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Auto%20Traders-live-3fb950?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Tanzanite Auto Traders live site"/></a>
   <a href="https://d.tanzaniteauto.com"><img src="https://img.shields.io/badge/Shamba%20Langu-live-3fb950?style=for-the-badge&logo=pwa&logoColor=white" alt="Shamba Langu live app"/></a>
-  <a href="https://tech.tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Technologies-live-3fb950?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Tanzanite Technologies live site"/></a>
+  <a href="https://tech.tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Tech%20Solutions-live-3fb950?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Tanzanite Tech Solutions live site"/></a>
   <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
   <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
 </p>
@@ -129,7 +129,7 @@ A farm records app for livestock owners, built for phones first. The owner keeps
 | Project | What it is | Stack |
 |---|---|---|
 | [**Shamba Langu**](https://d.tanzaniteauto.com) (private, production) | Farm records app: animals, births and deaths, breeding reports, expenses, budgets and worker wages; installable, PIN and fingerprint sign in, English and Kiswahili | Next.js 16 · PostgreSQL · PWA · AWS |
-| [**Tanzanite Technologies**](https://tech.tanzaniteauto.com) | Website of Tanzanite Technologies, a software company where I am a member: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
+| [**Tanzanite Tech Solutions**](https://tech.tanzaniteauto.com) | Website of Tanzanite Tech Solutions, a software company where I am a member: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
 | **Tanzanite Invoice System** (private, production) | Invoicing inside the Tanzanite staff and admin portals, moved off Google Apps Script: PDF invoices, customer email delivery, payment tracking, audit history and an Android app for staff | Next.js · Prisma · Amazon SES · Capacitor |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
@@ -142,11 +142,11 @@ A farm records app for livestock owners, built for phones first. The owner keeps
 
 <table>
   <tr>
-    <td width="74%"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-home.webp" alt="Tanzanite Technologies website: black, yellow and blue header, banner slider and services"/></a></td>
-    <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile.webp" alt="Tanzanite Technologies website on a phone"/></a></td>
+    <td width="74%"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-home.webp" alt="Tanzanite Tech Solutions website: black, yellow and blue header, banner slider and services"/></a></td>
+    <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile.webp" alt="Tanzanite Tech Solutions website on a phone"/></a></td>
   </tr>
 </table>
-<p align="center"><sub><b>tech.tanzaniteauto.com</b> · Tanzanite Technologies (I am a member), a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
+<p align="center"><sub><b>tech.tanzaniteauto.com</b> · Tanzanite Tech Solutions (I am a member), a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
 
 <p align="center"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/portfolio.jpg" width="80%" alt="Portfolio of Allan Muganyizi Deus, DevOps and Systems Engineer"/></a><br/><sub><b>allan.tanzaniteauto.com</b> · static site on S3 + CloudFront, CloudFormation, keyless GitHub Actions deploys</sub></p>
 
