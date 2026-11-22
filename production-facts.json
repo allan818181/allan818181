@@ -1,9 +1,12 @@
 {
   "title": "Production systems I run",
   "systems": [
-    { "name": "Tanzanite Auto Traders", "note": "car sales platform", "host": "tanzaniteauto.com", "healthUrl": "https://tanzaniteauto.com/api/health" },
-    { "name": "Shamba Langu", "note": "farm records app", "host": "d.tanzaniteauto.com", "healthUrl": "https://d.tanzaniteauto.com/api/health" },
-    { "name": "Tanzanite Technologies", "note": "company website", "host": "tech.tanzaniteauto.com", "healthUrl": "https://tech.tanzaniteauto.com" },
-    { "name": "Portfolio", "note": "S3 + CloudFront", "host": "allan.tanzaniteauto.com", "healthUrl": "https://allan.tanzaniteauto.com" }
+    {"name": "Tanzanite Auto Traders", "note": "car sales platform", "host": "tanzaniteauto.com", "healthUrl": "https://tanzaniteauto.com/api/health"},
+    {"name": "School Management System", "note": "multi-school platform", "host": "shule.tanzaniteauto.com", "healthUrl": "https://shule.tanzaniteauto.com/api/health"},
+    {"name": "Jehovah Jireh school", "note": "school website", "host": "jsch.tanzaniteauto.com", "healthUrl": "https://jsch.tanzaniteauto.com/api/health"},
+    {"name": "Shamba Langu", "note": "farm records app", "host": "d.tanzaniteauto.com", "healthUrl": "https://d.tanzaniteauto.com/api/health"},
+    {"name": "MLJ Legacy Services", "note": "company website", "host": "mj.tanzaniteauto.com", "healthUrl": "https://mj.tanzaniteauto.com/api/health"},
+    {"name": "Tanzanite Tech Solutions", "note": "company website", "host": "tech.tanzaniteauto.com", "healthUrl": "https://tech.tanzaniteauto.com"},
+    {"name": "Portfolio", "note": "S3 + CloudFront", "host": "allan.tanzaniteauto.com", "healthUrl": "https://allan.tanzaniteauto.com"}
   ]
 }

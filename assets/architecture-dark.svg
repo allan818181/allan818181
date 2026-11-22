@@ -10,7 +10,7 @@
 </style>
 <rect width="1000" height="430" rx="14" fill="#0d1117" stroke="#30363d"/>
 <rect x="250" y="40" width="480" height="232" rx="12" fill="none" stroke="#1f6feb" stroke-dasharray="6 5"/>
-<text x="266" y="62" class="g">AWS EC2 · Docker Compose · eu-west-2</text>
+<text x="266" y="62" class="g">Amazon Lightsail · Docker Compose · eu-west-2</text>
 <path d="M190 150 H275" class="w"/><path d="M190 150 H275" class="f" style="animation-delay:0s"/>
 <path d="M415 150 H480" class="w"/><path d="M415 150 H480" class="f" style="animation-delay:-0.3s"/>
 <path d="M550 179 V195" class="w"/><path d="M550 179 V195" class="f" style="animation-delay:-0.6s"/>
@@ -38,8 +38,8 @@
     <text x="135" y="44" text-anchor="middle" class="s">cache · rate limits · photo pipeline</text></g>
 <g transform="translate(790,60)">
     <rect width="170" height="58" rx="10" fill="#161b22" stroke="#30363d"/>
-    <text x="85" y="25" text-anchor="middle" class="b">Neon PostgreSQL</text>
-    <text x="85" y="44" text-anchor="middle" class="s">Prisma · migrations</text></g>
+    <text x="85" y="25" text-anchor="middle" class="b">PostgreSQL 16</text>
+    <text x="85" y="44" text-anchor="middle" class="s">daily dumps to S3</text></g>
 <g transform="translate(790,170)">
     <rect width="170" height="58" rx="10" fill="#161b22" stroke="#ff9900"/>
     <text x="85" y="25" text-anchor="middle" class="b">Amazon S3</text>

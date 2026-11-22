@@ -91,7 +91,8 @@ const THEMES = {
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 
 function render(t) {
-  const W = 840, H = 330;
+  const panelH = 48 + systems.length * 22;
+  const W = 840, H = Math.max(330, 166 + panelH + 24);
   const updated = new Date().toUTCString().replace(/:\d\d GMT$/, " UTC");
   const tiles = stats.map((s, i) => {
     const x = 24 + i * 200;
@@ -120,7 +121,7 @@ function render(t) {
       <text x="344" class="small" text-anchor="end">${esc(s.text)}</text></g>`;
   }).join("");
   const panel = `<g transform="translate(440,166)">
-    <rect width="376" height="140" rx="10" fill="${t.card}" stroke="${t.border}"/>
+    <rect width="376" height="${panelH}" rx="10" fill="${t.card}" stroke="${t.border}"/>
     <text x="16" y="28" class="label">${esc(facts.title)}</text>
     <text x="360" y="28" class="small" text-anchor="end">checked live</text>
     ${rows}

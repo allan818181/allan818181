@@ -1,8 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Allan Muganyizi Deus, Full-Stack and DevOps Engineer"/>
-
-<p align="center">
-  <a href="https://github.com/allan818181"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=I+build+production+web+systems+and+run+them+on+AWS.;Next.js+%C2%B7+React+%C2%B7+React+Native+%C2%B7+Django;Docker+%C2%B7+GitHub+Actions+%C2%B7+AWS+%C2%B7+PostgreSQL;From+the+first+commit+to+a+monitored+live+system." alt="Typing animation of my focus areas"/></a>
-</p>
+<img src="assets/banner.webp" width="100%" alt="Allan Muganyizi Deus, Full-Stack and DevOps Engineer. Real screens of the systems I built."/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to-full--time%20%26%20remote%20roles-3fb950?style=for-the-badge" alt="Open to full-time and remote roles"/>
@@ -15,45 +11,86 @@
 
 I'm a full-stack engineer who also owns what happens after the code is written: infrastructure, deployments, security and monitoring.
 
-- 🚗 **Right now:** I build and run the production platform for **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa Regional Office in Dar es Salaam). I designed it, wrote it, and deployed it to AWS with automated, keyless CI/CD.
-- 🐐 **Just shipped:** [**Shamba Langu**](https://d.tanzaniteauto.com), a farm records app for livestock owners: every animal, birth and death, plus every expense and worker's wage. Installable on the phone, in English and Kiswahili, live on AWS.
-- 💻 **Member of [Tanzanite Tech Solutions](https://tech.tanzaniteauto.com):** a Tanzanian software company that builds websites, mobile apps, business systems, SEO and cloud hosting for businesses across East Africa. I work on software and cloud engineering.
-- 🧱 **How I work:** typed code, small reviewed commits, infrastructure as scripts, nothing manual that a pipeline can do.
-- 📱 **Stack:** web (Next.js, React), mobile (React Native, Flutter), backend (Node.js, Django), cloud (AWS, Docker, GitHub Actions).
-- 📍 **Location:** Dar es Salaam, Tanzania. I speak and write English and Kiswahili.
+- **Right now:** I build and run the production platform of **Tanzanite Auto Traders**, a Japanese used car sales company (Tokyo HQ, East Africa Regional Office in Dar es Salaam).
+- **Latest work:** a multi-school **School Management System**, and the website and school system of **Jehovah Jireh Learning Center** in Dodoma, joined by one login.
+- **Member of [Tanzanite Tech Solutions](https://tech.tanzaniteauto.com):** a Tanzanian software company. I work on software and cloud engineering.
+- **How I work:** typed code, small reviewed commits, infrastructure as scripts, nothing manual that a pipeline can do.
+- **Stack:** web (Next.js, React), mobile (React Native, Flutter), backend (Node.js, Django), cloud (AWS, Docker, GitHub Actions).
+- **Location:** Dar es Salaam, Tanzania. I speak and write English and Kiswahili.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-dark.svg"/>
   <img src="assets/dashboard-light.svg" width="100%" alt="Dashboard: contributions, public repositories, live production systems and programming languages"/>
 </picture>
 
-## ⭐ Flagship: [Tanzanite Auto Traders](https://tanzaniteauto.com) (production)
+## Selected work
 
-A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**. The code is private (client work); here is how it is built and run.
+Every system below is online. Client code is private, so here is what it does and how it is built. Screens of the school system and the farm app show sample data.
+
+<a href="https://tech.tanzaniteauto.com/work/school-management-system"><img src="assets/showcase/plate-sms-wide.webp" width="100%" alt="School Management System: dashboard on a computer and the parent portal on a phone"/></a>
+
+### School Management System
+
+One platform for many schools. Each school has its own badge, colours, sign-in page, levels, grading, fees and private data.
+
+| | What I built |
+|---|---|
+| **Teaching and exams** | Registers on a phone, timetables with clash checks, lesson plans that follow the timetable and are checked by the Academic Teacher, marks saved while typing, NECTA grades, divisions and positions, a submit, approve and publish workflow, report cards with signatures |
+| **Money** | Fee structures, one-click term invoices, numbered receipts, void with reason instead of delete, expenses, budgets with warnings, payroll with NSSF and PAYE, payslips and a bank list |
+| **Families** | Parent portal for all children: attendance, results, report cards, fees, homework, timetable and events, in English and Kiswahili |
+| **Trust** | Signed QR codes on every document that open the school's own record, 34 permissions with custom and double roles, two-step sign-in, idle sign-out, one year of activity log |
+| **Live data** | Every change reaches every open screen in about a second through PostgreSQL LISTEN/NOTIFY and Server-Sent Events |
+| **Quality** | More than 150 real-browser end-to-end checks driven over the Chrome DevTools Protocol |
+
+<p><img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Server--Sent%20Events-1238e0?style=flat-square" alt="Server--Sent Events"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/Amazon%20Lightsail%20%C2%B7%20SES-FF9900?style=flat-square" alt="Amazon Lightsail %C2%B7 SES"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/></p>
+
+<details>
+<summary><b>More screens of the school system</b></summary>
+<br/>
+<table>
+  <tr>
+    <td width="50%"><img src="assets/showcase/sms-results.webp" alt="Class results with averages, positions and grades"/><p align="center"><sub>Class results</sub></p></td>
+    <td width="50%"><img src="assets/showcase/sms-fees.webp" alt="Fee status of every pupil"/><p align="center"><sub>Fee status by pupil</sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/showcase/sms-attendance.webp" alt="Attendance of the whole school today"/><p align="center"><sub>Attendance today</sub></p></td>
+    <td width="50%"><img src="assets/showcase/sms-finance.webp" alt="Accounts dashboard with money in and out by month"/><p align="center"><sub>Accounts</sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="assets/showcase/doc-report.webp" width="330" alt="Printed report card with signatures and QR code"/><p align="center"><sub>Report card</sub></p></td>
+    <td width="50%" align="center"><img src="assets/showcase/ph-verify.webp" width="230" alt="The verification page a QR scan opens on a phone"/><p align="center"><sub>What a QR scan opens</sub></p></td>
+  </tr>
+</table>
+</details>
+
+<a href="https://jsch.tanzaniteauto.com"><img src="assets/showcase/plate-jj-wide.webp" width="100%" alt="Jehovah Jireh Learning Center: school website on a computer and a phone"/></a>
+
+### Jehovah Jireh Learning Center
+
+The website and school system of an English medium pre and primary school in Vikonje, Dodoma.
+
+| | What I built |
+|---|---|
+| **Website** | Eight pages in English and Kiswahili built on the school's own photos, uniform tartan and colours; fees and joining instructions, application form, greetings that speak in four languages; a manager where the school edits every text and photo |
+| **School system** | The platform above in the school's badge and colours on its own sign-in address, with its real fee structure, report cards and emails in the school's name |
+| **Joined** | One login for parents, teachers and staff, live pupil and staff numbers on the website, single sign-on from the system into the website manager |
+| **Craft** | Badge redrawn as a clean vector from the school's own artwork; Lighthouse accessibility 100 on every page |
 
 <p align="center">
-  <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Visit%20the%20live%20site-tanzaniteauto.com-1f6feb?style=for-the-badge" height="38" alt="Visit the live site: tanzaniteauto.com"/></a>
-  <a href="https://tanzaniteauto.com/stock-list"><img src="https://img.shields.io/badge/Browse-15%2C000%2B%20cars-3fb950?style=for-the-badge" height="38" alt="Browse 15,000+ cars"/></a>
+  <a href="https://jsch.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20the%20website-jsch.tanzaniteauto.com-16245c?style=for-the-badge" height="34" alt="Open the website: jsch.tanzaniteauto.com"/></a>
 </p>
 
-<table>
-  <tr>
-    <td width="74%"><a href="https://tanzaniteauto.com"><img src="assets/showcase/tz-home.webp" alt="Tanzanite Auto Traders homepage: search, specialty commercial vehicles and stock highlights"/></a></td>
-    <td width="26%" align="center"><a href="https://tanzaniteauto.com"><img src="assets/showcase/tz-mobile.webp" alt="Tanzanite homepage on a phone"/></a></td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td width="50%"><a href="https://tanzaniteauto.com/stock-list"><img src="assets/showcase/tz-stock.webp" alt="Stock list with filters, brand counts and 15,047 cars in stock"/></a><p align="center"><sub><b>Stock list</b> · filters, brand counts, infinite scroll</sub></p></td>
-    <td width="50%"><a href="https://tanzaniteauto.com/vehicle/DBQ2796"><img src="assets/showcase/tz-vehicle.webp" alt="Vehicle page with photo gallery, price breakdown and enquiry actions"/></a><p align="center"><sub><b>Vehicle page</b> · 19-photo gallery, live price breakdown, WhatsApp enquiry</sub></p></td>
-  </tr>
-</table>
+<a href="https://tanzaniteauto.com"><img src="assets/showcase/plate-tz-wide.webp" width="100%" alt="Tanzanite Auto Traders: car sales platform on a computer and a phone"/></a>
 
-### How it is built
+### Tanzanite Auto Traders
+
+A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**.
+
+**How it is built**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg"/>
-  <img src="assets/architecture-light.svg" width="100%" alt="Architecture: visitors reach Caddy and Next.js on EC2 with Redis and a worker; data in Neon PostgreSQL; photos in S3 behind CloudFront; GitHub Actions deploys images from ECR with a keyless OIDC role"/>
+  <img src="assets/architecture-light.svg" width="100%" alt="Architecture: visitors reach Caddy and Next.js on Amazon Lightsail with Redis, a worker and PostgreSQL; photos in S3 behind CloudFront; GitHub Actions deploys images from ECR with a keyless OIDC role"/>
 </picture>
 
 | | What I built |
@@ -62,7 +99,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | **Invoicing** | Replaced the sales team's Google Apps Script invoice system: numbered invoices with HS codes, PDF generation, email delivery to customers through Amazon SES, paid and overdue tracking, audit history; every legacy invoice and 384 audit events imported by a repeatable script; staff Android app (Capacitor) moved to the new system |
 | **Delivery** | GitHub Actions builds a Docker image, pushes it to ECR and deploys through SSM; database migrations run automatically; a failed health check rolls back to the previous version |
 | **Security** | Short-lived OIDC credentials (no long-lived AWS keys), least-privilege IAM, no open SSH port (SSM only), HSTS/CSP headers, rate limiting, role-based access |
-| **Operations** | Daily EBS snapshots, budget and SNS alerts, health checks, query monitoring, and cost tuning (e.g. cutting database egress by loading only what each page shows) |
+| **Operations** | Daily server snapshots and database dumps to S3, health checks, query monitoring, and cost tuning (e.g. moving every system from EC2 and a hosted database to one server with about 1.5 minutes of downtime) |
 
 <p>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
@@ -71,65 +108,33 @@ A multilingual car sales platform with a public storefront and three portals (cu
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS%20EC2%20%C2%B7%20S3%20%C2%B7%20CloudFront%20%C2%B7%20IAM%20%C2%B7%20SSM-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS%20Lightsail%20%C2%B7%20S3%20%C2%B7%20CloudFront%20%C2%B7%20IAM%20%C2%B7%20SSM-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-</p>
-
-## 🐐 Shamba Langu (production)
-
-A farm records app for livestock owners, built for phones first. The owner keeps a full register of animals (goats, chickens or any other kind, one by one or as a flock) and of the farm's money. The code is private (client work).
-
-<p align="center">
-  <a href="https://d.tanzaniteauto.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Open%20the%20app-d.tanzaniteauto.com-1f6feb?style=for-the-badge" height="38" alt="Open the app: d.tanzaniteauto.com"/></a>
 </p>
 
 <table>
   <tr>
-    <td width="74%"><a href="https://d.tanzaniteauto.com"><img src="assets/showcase/sl-home.webp" alt="Shamba Langu welcome screen: real farm photos with the line Every animal. Every shilling."/></a></td>
-    <td width="26%" align="center"><a href="https://d.tanzaniteauto.com"><img src="assets/showcase/sl-mobile.webp" alt="Shamba Langu on a phone"/></a></td>
+    <td width="50%" valign="top"><a href="https://d.tanzaniteauto.com"><img src="assets/showcase/plate-sl.webp" alt="Shamba Langu farm records app"/></a>
+    <h3>Shamba Langu</h3>
+    Farm records for livestock owners: animals and flocks, births and breeding reports, eggs, expenses, budgets and worker pay. Installable, with PIN or fingerprint sign-in (WebAuthn), push reminders, English and Kiswahili.<br/><br/><sub>Next.js 16 · PostgreSQL · PWA · WebAuthn · Web Push · AWS</sub></td>
+    <td width="50%" valign="top"><a href="https://mj.tanzaniteauto.com"><img src="assets/showcase/plate-mlj.webp" alt="MLJ Legacy Services company website"/></a>
+    <h3>MLJ Legacy Services</h3>
+    Bilingual website for a Dar es Salaam company with four divisions: full-screen photo stories, catering menu planner, enquiries inbox and a manager where the owner edits every text and photo.<br/><br/><sub>Next.js · TypeScript · Docker · AWS</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/plate-tt.webp" alt="Tanzanite Tech Solutions website"/></a>
+    <h3>Tanzanite Tech Solutions</h3>
+    Website of the software company where I am a member: four languages with Arabic right-to-left, content manager, customer accounts, website-check tool and live-followed client forms.<br/><br/><sub>Next.js 16 · PostgreSQL · Docker · AWS</sub></td>
+    <td width="50%" valign="top"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/plate-pf.webp" alt="Portfolio site"/></a>
+    <h3>Portfolio</h3>
+    Case studies, real incidents and how each system is run. Static site on S3 and CloudFront, built from one CloudFormation template.<br/><br/><sub>HTML · CloudFormation · S3 · CloudFront · GitHub Actions</sub></td>
   </tr>
 </table>
 
-| | What I built |
-|---|---|
-| **Animals** | Register for any species, single animals or flocks; births, deaths, sales, treatments, vaccinations and egg counts on one timeline; breeding reports such as birth intervals, litter size and expected births |
-| **Money** | Expenses with emergency flag and receipt photo, income from sales, monthly budgets with alerts, worker salaries with advances and daily needs, weekly, monthly and yearly totals, print and CSV export |
-| **App feel** | Installable app (PWA) with splash screen, quick sign in with PIN or fingerprint (WebAuthn passkeys), push reminders with app icon count, offline screen, English and Kiswahili, more than one owner per farm |
-| **Delivery** | Own container on the same EC2 server behind Caddy, own Neon database, email through Amazon SES, keyless GitHub OIDC deploys on every push |
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PWA%20%C2%B7%20Web%20Push%20%C2%B7%20WebAuthn-5A0FC8?style=flat-square&logo=pwa&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS%20EC2%20%C2%B7%20SES-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"/>
-</p>
-
-## 🧰 Tech stack
-
-| | |
-|---|---|
-| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,python,java,php,dart" alt="TypeScript, JavaScript, Python, Java, PHP, Dart"/> |
-| **Frontend & mobile** | <img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind,html,css,flutter" alt="Next.js, React, Vite, Tailwind, HTML, CSS, Flutter"/> <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="40" alt="React Native"/> |
-| **Backend & data** | <img src="https://skillicons.dev/icons?i=nodejs,express,django,prisma,postgres,mysql,redis,supabase" alt="Node.js, Express, Django, Prisma, PostgreSQL, MySQL, Redis, Supabase"/> |
-| **DevOps & cloud** | <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,bash,nginx,git,vercel" alt="AWS, Docker, GitHub Actions, Linux, Bash, Nginx, Git, Vercel"/> |
-
-## 🚀 Featured projects
-
-<p>
-  <b>Live demos:</b>&nbsp;
-  <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Auto%20Traders-live-3fb950?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Tanzanite Auto Traders live site"/></a>
-  <a href="https://d.tanzaniteauto.com"><img src="https://img.shields.io/badge/Shamba%20Langu-live-3fb950?style=for-the-badge&logo=pwa&logoColor=white" alt="Shamba Langu live app"/></a>
-  <a href="https://tech.tanzaniteauto.com"><img src="https://img.shields.io/badge/Tanzanite%20Tech%20Solutions-live-3fb950?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Tanzanite Tech Solutions live site"/></a>
-  <a href="https://allan818181.github.io/aru-connect-mail/"><img src="https://img.shields.io/badge/ARU%20CampusMail-live-3fb950?style=for-the-badge&logo=githubpages&logoColor=white" alt="ARU CampusMail live demo"/></a>
-  <a href="https://lucy-portfolio-alpha.vercel.app"><img src="https://img.shields.io/badge/Lucy%20Portfolio-live-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Lucy Portfolio live site"/></a>
-</p>
+## More projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Shamba Langu**](https://d.tanzaniteauto.com) (private, production) | Farm records app: animals, births and deaths, breeding reports, expenses, budgets and worker wages; installable, PIN and fingerprint sign in, English and Kiswahili | Next.js 16 · PostgreSQL · PWA · AWS |
-| [**Tanzanite Tech Solutions**](https://tech.tanzaniteauto.com) | Website of Tanzanite Tech Solutions, a software company where I am a member: 4 languages (incl. Arabic right-to-left), admin CMS, free website-check tool, cost estimator, quote leads by email | Next.js 16 · PostgreSQL · Docker · AWS |
 | **Tanzanite Invoice System** (private, production) | Invoicing inside the Tanzanite staff and admin portals, moved off Google Apps Script: PDF invoices, customer email delivery, payment tracking, audit history and an Android app for staff | Next.js · Prisma · Amazon SES · Capacitor |
 | [**Meditrack**](https://github.com/allan818181/hospital-system) | Hospital system with five role-based portals: reception, doctor, lab, pharmacy, admin | Django · DRF |
 | [**Vegas Hotel AI Concierge**](https://github.com/allan818181/vegas) | AI chat concierge grounded in a real hotel's suites and prices; captures bookings as leads | Node.js · Express · Gemini |
@@ -140,17 +145,16 @@ A farm records app for livestock owners, built for phones first. The owner keeps
 | [**Salon Website**](https://github.com/allan818181/salon-web) | Bilingual (EN/SW) site, containerized for production | Django · Tailwind · Docker |
 | [**CertifyWell**](https://github.com/allan818181/exam-portal) | Online exam portal with token-protected exams and grading | PHP · MySQL · JavaScript |
 
-<table>
-  <tr>
-    <td width="74%"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-home-v2.webp" alt="Tanzanite Tech Solutions website: black, yellow and blue header, banner slider and services"/></a></td>
-    <td width="26%" align="center"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/tt-mobile-v2.webp" alt="Tanzanite Tech Solutions website on a phone"/></a></td>
-  </tr>
-</table>
-<p align="center"><sub><b>tech.tanzaniteauto.com</b> · Tanzanite Tech Solutions (I am a member), a second container on the same AWS EC2 server behind Caddy, own Neon database, keyless GitHub OIDC deploys with automatic rollback</sub></p>
+## Tech stack
 
-<p align="center"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/portfolio.jpg" width="80%" alt="Portfolio of Allan Muganyizi Deus, DevOps and Systems Engineer"/></a><br/><sub><b>allan.tanzaniteauto.com</b> · static site on S3 + CloudFront, CloudFormation, keyless GitHub Actions deploys</sub></p>
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,python,java,php,dart" alt="TypeScript, JavaScript, Python, Java, PHP, Dart"/> |
+| **Frontend & mobile** | <img src="https://skillicons.dev/icons?i=nextjs,react,vite,tailwind,html,css,flutter" alt="Next.js, React, Vite, Tailwind, HTML, CSS, Flutter"/> <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="40" alt="React Native"/> |
+| **Backend & data** | <img src="https://skillicons.dev/icons?i=nodejs,express,django,prisma,postgres,mysql,redis,supabase" alt="Node.js, Express, Django, Prisma, PostgreSQL, MySQL, Redis, Supabase"/> |
+| **DevOps & cloud** | <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,bash,nginx,git,vercel" alt="AWS, Docker, GitHub Actions, Linux, Bash, Nginx, Git, Vercel"/> |
 
-## 📈 Activity
+## Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/allan818181/allan818181/output/snake-dark.svg"/>
@@ -158,5 +162,3 @@ A farm records app for livestock owners, built for phones first. The owner keeps
 </picture>
 
 <p align="center"><sub>The dashboard and the snake above are rebuilt every day by a GitHub Actions workflow in this repository (<code>scripts/dashboard.mjs</code>), which also checks that each production system is online.</sub></p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,55:1f6feb,100:0d1117&height=110&section=footer" width="100%" alt=""/>
