@@ -119,7 +119,7 @@ A multilingual car sales platform with a public storefront and three portals (cu
     Farm records for livestock owners: animals and flocks, births and breeding reports, eggs, expenses, budgets and worker pay. Installable, with PIN or fingerprint sign-in (WebAuthn), push reminders, English and Kiswahili.<br/><br/><sub>Next.js 16 · PostgreSQL · PWA · WebAuthn · Web Push · AWS</sub></td>
     <td width="50%" valign="top"><a href="https://mj.tanzaniteauto.com"><img src="assets/showcase/plate-mlj.webp" alt="MLJ Legacy Services company website"/></a>
     <h3>MLJ Legacy Services</h3>
-    Bilingual website for a Dar es Salaam company with four divisions: full-screen photo stories, catering menu planner, enquiries inbox and a manager where the owner edits every text and photo.<br/><br/><sub>Next.js · TypeScript · Docker · AWS</sub></td>
+    Bilingual website for a Dar es Salaam funeral services and real estate company: full-screen photo stories, tombstone designs with quotation requests, enquiries inbox and a manager where the owner edits every text and photo.<br/><br/><sub>Next.js · TypeScript · Docker · AWS</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/plate-tt.webp" alt="Tanzanite Tech Solutions website"/></a>
