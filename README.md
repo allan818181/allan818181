@@ -63,7 +63,7 @@ One platform for many schools. Each school has its own badge, colours, sign-in p
 </table>
 </details>
 
-<a href="https://jsch.tanzaniteauto.com"><img src="assets/showcase/plate-jj-wide.webp" width="100%" alt="Jehovah Jireh Learning Center: school website on a computer and a phone"/></a>
+<a href="https://jehovahjirehlc.cc"><img src="assets/showcase/plate-jj-wide.webp" width="100%" alt="Jehovah Jireh Learning Center: school website on a computer and a phone"/></a>
 
 ### Jehovah Jireh Learning Center
 
@@ -77,7 +77,7 @@ The website and school system of an English medium pre and primary school in Vik
 | **Craft** | Badge redrawn as a clean vector from the school's own artwork; Lighthouse accessibility 100 on every page |
 
 <p align="center">
-  <a href="https://jsch.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20the%20website-jsch.tanzaniteauto.com-16245c?style=for-the-badge" height="34" alt="Open the website: jsch.tanzaniteauto.com"/></a>
+  <a href="https://jehovahjirehlc.cc"><img src="https://img.shields.io/badge/Open%20the%20website-jehovahjirehlc.cc-16245c?style=for-the-badge" height="34" alt="Open the website: jehovahjirehlc.cc"/></a>
 </p>
 
 <a href="https://tanzaniteauto.com"><img src="assets/showcase/plate-tz-wide.webp" width="100%" alt="Tanzanite Auto Traders: car sales platform on a computer and a phone"/></a>
