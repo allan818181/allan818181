@@ -25,11 +25,18 @@ I'm a full-stack engineer who also owns what happens after the code is written: 
 
 ## Selected work
 
-Every system below is online. Client code is private, so here is what it does and how it is built. Screens of the school system and the farm app show sample data.
+<a href="https://tech.tanzaniteauto.com/work"><img src="assets/work/stage.webp" width="100%" alt="Selected work, 7 systems: real systems, built and running today. School Management System, Jehovah Jireh Learning Center, Tanzanite Auto Traders, MLJ Legacy Services, Shamba Langu, Tanzanite Tech Solutions and Portfolio, each shown in its own colours with its real screens"/></a>
 
-<a href="https://tech.tanzaniteauto.com/work/school-management-system"><img src="assets/showcase/plate-sms-wide.webp" width="100%" alt="School Management System: dashboard on a computer and the parent portal on a phone"/></a>
+<p align="center"><sub>Every system here is online and runs on infrastructure I set up. Client code is private, so these are the real screens; the school system and farm app show sample data.</sub></p>
 
-### School Management System
+<br/>
+
+<a href="https://shule.tanzaniteauto.com"><img src="assets/work/plate-sms.webp" width="100%" alt="School Management System: school platform. 20 modules, 4 school levels, 2 languages, 150+ browser checks"/></a>
+
+<p>
+  <a href="https://tech.tanzaniteauto.com/work/school-management-system"><img src="https://img.shields.io/badge/Read%20the%20case%20study-fae20a?style=for-the-badge" height="32" alt="Read the case study"/></a>
+  <a href="https://shule.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20shule.tanzaniteauto.com-1238e0?style=for-the-badge" height="32" alt="Open shule.tanzaniteauto.com"/></a>
+</p>
 
 One platform for many schools. Each school has its own badge, colours, sign-in page, levels, grading, fees and private data.
 
@@ -42,7 +49,7 @@ One platform for many schools. Each school has its own badge, colours, sign-in p
 | **Live data** | Every change reaches every open screen in about a second through PostgreSQL LISTEN/NOTIFY and Server-Sent Events |
 | **Quality** | More than 150 real-browser end-to-end checks driven over the Chrome DevTools Protocol |
 
-<p><img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Server--Sent%20Events-1238e0?style=flat-square" alt="Server--Sent Events"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/Amazon%20Lightsail%20%C2%B7%20SES-FF9900?style=flat-square" alt="Amazon Lightsail %C2%B7 SES"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/></p>
+<p><sub>Next.js 16 · TypeScript · PostgreSQL · Server-Sent Events · Docker · Amazon Lightsail and SES · GitHub Actions</sub></p>
 
 <details>
 <summary><b>More screens of the school system</b></summary>
@@ -63,9 +70,14 @@ One platform for many schools. Each school has its own badge, colours, sign-in p
 </table>
 </details>
 
-<a href="https://jehovahjirehlc.cc"><img src="assets/showcase/plate-jj-wide.webp" width="100%" alt="Jehovah Jireh Learning Center: school website on a computer and a phone"/></a>
+<br/>
 
-### Jehovah Jireh Learning Center
+<a href="https://jehovahjirehlc.cc"><img src="assets/work/plate-jj.webp" width="100%" alt="Jehovah Jireh Learning Center: school website and system. 8 website pages, 2 languages, accessibility score 100, 1 login for everyone"/></a>
+
+<p>
+  <a href="https://tech.tanzaniteauto.com/work/jehovah-jireh-learning-center"><img src="https://img.shields.io/badge/Read%20the%20case%20study-ffc21a?style=for-the-badge" height="32" alt="Read the case study"/></a>
+  <a href="https://jehovahjirehlc.cc"><img src="https://img.shields.io/badge/Open%20jehovahjirehlc.cc-16245c?style=for-the-badge" height="32" alt="Open jehovahjirehlc.cc"/></a>
+</p>
 
 The website and school system of an English medium pre and primary school in Vikonje, Dodoma.
 
@@ -76,17 +88,18 @@ The website and school system of an English medium pre and primary school in Vik
 | **Joined** | One login for parents, teachers and staff, live pupil and staff numbers on the website, single sign-on from the system into the website manager |
 | **Craft** | Badge redrawn as a clean vector from the school's own artwork; Lighthouse accessibility 100 on every page |
 
-<p align="center">
-  <a href="https://jehovahjirehlc.cc"><img src="https://img.shields.io/badge/Open%20the%20website-jehovahjirehlc.cc-16245c?style=for-the-badge" height="34" alt="Open the website: jehovahjirehlc.cc"/></a>
+<p><sub>Next.js · TypeScript · PostgreSQL · Docker · Caddy · Amazon Lightsail</sub></p>
+
+<br/>
+
+<a href="https://tanzaniteauto.com"><img src="assets/work/plate-tz.webp" width="100%" alt="Tanzanite Auto Traders: vehicle sales platform. 15,000+ vehicles, 313,000+ photos on a CDN, 7 languages, AWS with zero stored keys"/></a>
+
+<p>
+  <a href="https://tech.tanzaniteauto.com/work/tanzanite-auto-traders"><img src="https://img.shields.io/badge/Read%20the%20case%20study-ffd75e?style=for-the-badge" height="32" alt="Read the case study"/></a>
+  <a href="https://tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20tanzaniteauto.com-a8231b?style=for-the-badge" height="32" alt="Open tanzaniteauto.com"/></a>
 </p>
 
-<a href="https://tanzaniteauto.com"><img src="assets/showcase/plate-tz-wide.webp" width="100%" alt="Tanzanite Auto Traders: car sales platform on a computer and a phone"/></a>
-
-### Tanzanite Auto Traders
-
-A multilingual car sales platform with a public storefront and three portals (customer, staff, admin), serving **15,000+ vehicles** and **313,000+ photos**.
-
-**How it is built**
+A multilingual car sales platform with a public storefront and three portals (customer, staff, admin). I build it and run it in production.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg"/>
@@ -101,35 +114,57 @@ A multilingual car sales platform with a public storefront and three portals (cu
 | **Security** | Short-lived OIDC credentials (no long-lived AWS keys), least-privilege IAM, no open SSH port (SSM only), HSTS/CSP headers, rate limiting, role-based access |
 | **Operations** | Daily server snapshots and database dumps to S3, health checks, query monitoring, and cost tuning (e.g. moving every system from EC2 and a hosted database to one server with about 1.5 minutes of downtime) |
 
+<p><sub>Next.js · TypeScript · Prisma · PostgreSQL · Redis · Docker · AWS Lightsail, S3, CloudFront, IAM, SSM · GitHub Actions</sub></p>
+
+<br/>
+
+<a href="https://mj.tanzaniteauto.com"><img src="assets/work/plate-mlj.webp" width="100%" alt="MLJ Legacy Services: company website. 3 services, 2 languages, 100% editable by the owner, AWS"/></a>
+
 <p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS%20Lightsail%20%C2%B7%20S3%20%C2%B7%20CloudFront%20%C2%B7%20IAM%20%C2%B7%20SSM-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+  <a href="https://tech.tanzaniteauto.com/work/mlj-legacy-services"><img src="https://img.shields.io/badge/Read%20the%20case%20study-f8c565?style=for-the-badge" height="32" alt="Read the case study"/></a>
+  <a href="https://mj.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20mj.tanzaniteauto.com-380c51?style=for-the-badge" height="32" alt="Open mj.tanzaniteauto.com"/></a>
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><a href="https://d.tanzaniteauto.com"><img src="assets/showcase/plate-sl.webp" alt="Shamba Langu farm records app"/></a>
-    <h3>Shamba Langu</h3>
-    Farm records for livestock owners: animals and flocks, births and breeding reports, eggs, expenses, budgets and worker pay. Installable, with PIN or fingerprint sign-in (WebAuthn), push reminders, English and Kiswahili.<br/><br/><sub>Next.js 16 · PostgreSQL · PWA · WebAuthn · Web Push · AWS</sub></td>
-    <td width="50%" valign="top"><a href="https://mj.tanzaniteauto.com"><img src="assets/showcase/plate-mlj.webp" alt="MLJ Legacy Services company website"/></a>
-    <h3>MLJ Legacy Services</h3>
-    Bilingual website for a Dar es Salaam funeral services and real estate company: full-screen photo stories, tombstone designs with quotation requests, enquiries inbox and a manager where the owner edits every text and photo.<br/><br/><sub>Next.js · TypeScript · Docker · AWS</sub></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><a href="https://tech.tanzaniteauto.com"><img src="assets/showcase/plate-tt.webp" alt="Tanzanite Tech Solutions website"/></a>
-    <h3>Tanzanite Tech Solutions</h3>
-    Website of the software company where I am a member: four languages with Arabic right-to-left, content manager, customer accounts, website-check tool and live-followed client forms.<br/><br/><sub>Next.js 16 · PostgreSQL · Docker · AWS</sub></td>
-    <td width="50%" valign="top"><a href="https://allan.tanzaniteauto.com"><img src="assets/showcase/plate-pf.webp" alt="Portfolio site"/></a>
-    <h3>Portfolio</h3>
-    Case studies, real incidents and how each system is run. Static site on S3 and CloudFront, built from one CloudFormation template.<br/><br/><sub>HTML · CloudFormation · S3 · CloudFront · GitHub Actions</sub></td>
-  </tr>
-</table>
+Bilingual website for a Dar es Salaam funeral services and real estate company: full-screen photo stories, tombstone designs with quotation requests, an enquiries inbox and a manager where the owner edits every text and photo.
+
+<p><sub>Next.js · TypeScript · PostgreSQL · Docker · AWS</sub></p>
+
+<br/>
+
+<a href="https://d.tanzaniteauto.com"><img src="assets/work/plate-sl.webp" width="100%" alt="Shamba Langu: farm management system. 7 animal types, 7 ready reports, 2 languages, PIN and fingerprint sign-in"/></a>
+
+<p>
+  <a href="https://tech.tanzaniteauto.com/work/shamba-langu"><img src="https://img.shields.io/badge/Read%20the%20case%20study-ffd75e?style=for-the-badge" height="32" alt="Read the case study"/></a>
+  <a href="https://d.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20d.tanzaniteauto.com-14502c?style=for-the-badge" height="32" alt="Open d.tanzaniteauto.com"/></a>
+</p>
+
+Farm records for livestock owners: animals and flocks, births and breeding reports, eggs, expenses, budgets and worker pay. Installable, with PIN or fingerprint sign-in (WebAuthn), push reminders, English and Kiswahili.
+
+<p><sub>Next.js 16 · PostgreSQL · PWA · WebAuthn · Web Push · AWS</sub></p>
+
+<br/>
+
+<a href="https://tech.tanzaniteauto.com"><img src="assets/work/plate-tt.webp" width="100%" alt="Tanzanite Tech Solutions: software company website. 4 languages, Arabic right to left, 100% editable in Admin, AWS"/></a>
+
+<p>
+  <a href="https://tech.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20tech.tanzaniteauto.com-151515?style=for-the-badge" height="32" alt="Open tech.tanzaniteauto.com"/></a>
+</p>
+
+Website of the software company where I am a member: four languages with Arabic right to left, a content manager, customer accounts, a website-check tool and client forms followed live. The "Our Work" page there is where this section's design comes from.
+
+<p><sub>Next.js 16 · PostgreSQL · Docker · AWS</sub></p>
+
+<br/>
+
+<a href="https://allan.tanzaniteauto.com"><img src="assets/work/plate-pf.webp" width="100%" alt="Portfolio: engineer portfolio. 7 live systems, 1 CloudFormation template, S3 and CloudFront, accessibility score 100"/></a>
+
+<p>
+  <a href="https://allan.tanzaniteauto.com"><img src="https://img.shields.io/badge/Open%20allan.tanzaniteauto.com-0f1d3a?style=for-the-badge" height="32" alt="Open allan.tanzaniteauto.com"/></a>
+</p>
+
+Case studies, real incidents and how each system is run. A static site on S3 and CloudFront, built from one CloudFormation template.
+
+<p><sub>HTML · CloudFormation · S3 · CloudFront · GitHub Actions</sub></p>
 
 ## More projects
 
